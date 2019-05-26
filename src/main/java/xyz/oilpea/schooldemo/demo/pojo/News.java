@@ -1,7 +1,10 @@
 package xyz.oilpea.schooldemo.demo.pojo;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.Date;
 
+@Repository
 public class News {
     private Integer id;
 
