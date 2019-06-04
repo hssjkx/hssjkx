@@ -25,6 +25,7 @@ spring:
     maxOpenPreparedStatements: 20
   freemarker:
     template-loader-path: classpath:/templates
+    suffix: .html
   mvc:
     static-path-pattern: /static/**
   resources:

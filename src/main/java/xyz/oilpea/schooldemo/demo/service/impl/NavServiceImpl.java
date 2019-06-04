@@ -13,12 +13,10 @@ import java.util.List;
 @Service
 public class NavServiceImpl implements NavService {
 
-    @Autowired(required = true)
+    @Autowired
     private NewsMapper nm;
-    @Autowired(required = true)
-    private News news;
     @Override
     public News getNews() {
-        return nm.selectByPrimaryKey(1);
+        return new News();
     }
 }
